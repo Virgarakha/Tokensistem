@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-size: 10px;
+}
+
+.ambiltoken {
+  text-align: center;
+}
+
+.ambiltoken h1 {
+  font-size: 15px;
+}
+
+.ambiltoken button {
+  padding: 10px 15px;
+  font-size: 10px;
+  background-color: #383838;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.redeem-container {
+  text-align: center;
+}
+
+.redeem-container h1 {
+  font-size: 15px;
+}
+
+.redeem-container button {
+  font-size: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #383838;
+  border: none;
+}
+
+.redeem-container input {
+  font-size: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.token {
+  display: block;
+}
+
+
+.token h4 {
+  font-weight: 200;
+  font-size: 13px;
+  width: 70%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.token h4 span {
+  font-weight: 700;
+  font-size: 15px;
+  color : red;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>token sistem</title>
+  </head>
+  <body>
+    <div class="token">
+      <div class="ambiltoken">
+        <h1>Ambil Tokenmu!</h1>
+        <div id="result"></div>
+        <button onclick="pullGacha()">Ambil Token</button>
+      </div>
+      <div class="warn">
+        <h4>silahkan <span>Salin</span> tokenmu dan tempel di bagin input token</h4>
+      </div>
+      <!-- redeem -->
+      <div class="redeem-container">
+          <h1>Input Token</h1>
+          <input type="text" id="codeInput" placeholder="masukan tokenmu">
+          <button onclick="redeemCode()">Submit</button>
+          <p id="result"></p>
+      </div>
+      <!-- redeem -->
+    </div>
+
+    <!-- site -->
+    <a href="https://virgarakha.github.io/HASILTOKEN/" id="rakha"></a>
+    <!-- site -->
+    <script src="script.js"></script>
+  </body>
+</html>
